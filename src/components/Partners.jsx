@@ -45,6 +45,7 @@ const Partners = () => {
       </div>
       <div className="flex justify-center mt-8">
         <Button
+          href="/"
           variant={BUTTON_VARIANT.DARK}
           label="Become a partner"
           className="flex justify-center"

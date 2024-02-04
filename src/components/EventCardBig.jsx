@@ -9,7 +9,7 @@ const EventCardBig = ({
   date,
   captions,
   buttonClassName,
-  titleClassName,
+  buttonHref,
 }) => {
   return (
     <div>
@@ -30,11 +30,13 @@ const EventCardBig = ({
 
           <span className={cx(`lg:flex mt-10  `, buttonClassName)}>
             <Button
+              href={buttonHref}
               label="Register"
               variant={BUTTON_VARIANT.LIGHT}
               className="flex p-4 sm:w-full sm:mt-4 justify-center rounded-md border border-b-4 border-[#5CB7FE] px-8"
             />
             <Button
+              href={buttonHref}
               label="Learn More"
               variant={BUTTON_VARIANT.DARK}
               svgclassName="fill-[#FFFCE1]"

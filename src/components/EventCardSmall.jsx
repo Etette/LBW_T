@@ -11,6 +11,7 @@ const EventCardSmall = ({
   className,
   titleClassName,
   descriptionClassName,
+  buttonHref,
 }) => {
   return (
     <div
@@ -35,6 +36,7 @@ const EventCardSmall = ({
 
         <span className="flex">
           <Button
+            href={buttonHref}
             label="Register"
             variant={BUTTON_VARIANT.LIGHT}
             className="flex sm:w-full sm:mt-4 justify-center rounded-md bg-[#fffdef] border border-[#131313] border-b-4 px-8"

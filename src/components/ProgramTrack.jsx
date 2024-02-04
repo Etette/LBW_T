@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+
 import EventCardSmall from "./EventCardSmall";
 import EventCardBig from "./EventCardBig";
 
@@ -11,6 +11,7 @@ function ProgramTrack() {
       </div>
 
       <EventCardBig
+        buttonHref="https://bit.ly/Hack-LBW-2024"
         title=" Lagos Blockchain Week (LBW) Hackathon"
         date="2nd - 4th May, 2024"
         image="./images/lbw.png"
@@ -23,12 +24,14 @@ function ProgramTrack() {
 
       <div className="lg:flex justify-between">
         <EventCardSmall
+          buttonHref="/"
           image="./images/image 22.png"
           title="Crypto 101 Conference"
           date="6th May, 2024"
           description="Introduction to Bitcoin and Blockchain"
         />
         <EventCardSmall
+          buttonHref="/"
           image="./images/image 13.png"
           title="Creator Convergence Expo"
           titleClassName="max-w-54"
@@ -38,6 +41,7 @@ function ProgramTrack() {
       </div>
 
       <EventCardBig
+        buttonHref="/"
         title="Innovation Across Borders (Pitch/VC Fund Day)"
         date="8th May, 2024"
         buttonClassName=""
@@ -57,6 +61,7 @@ function ProgramTrack() {
 
       <div className="lg:flex justify-between">
         <EventCardSmall
+          buttonHref="/"
           title="DWeb Storage Expo"
           descriptionClassName="max-w-44"
           image="./images/image 21.png"
@@ -64,6 +69,7 @@ function ProgramTrack() {
           description="Practical exercises on using Decentralized storage and retrieval"
         />
         <EventCardSmall
+          buttonHref="/"
           image="./images/unsplash_SYTO3xs06fU.png"
           title="Web3 BuiDLers Workshop"
           date="10th May, 2024"
@@ -72,6 +78,7 @@ function ProgramTrack() {
       </div>
 
       <EventCardBig
+        buttonHref="/"
         title=" Web3 BuiDLers Submit"
         buttonClassName="lg:mt-16"
         date="11th May, 2024"

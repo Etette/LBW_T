@@ -48,9 +48,10 @@ function HeaderNav() {
         >
           <p className="mr-[64px] cursor-pointer font-bold">#LBW2024</p>
           <div className="lg:flex hidden items-center gap-x-8 text-sm">
-            <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
-              <p className="my-5 text-sm cursor-pointer">Hackathon</p>
-            </a>
+            <Link href="/hackathon" smooth={true} duration={500}>
+              <p className="cursor-pointer">Hackathon</p>
+            </Link>
+
             <ScrollLink to="schedule" smooth={true} duration={500}>
               <p className="cursor-pointer">Schedule</p>
             </ScrollLink>

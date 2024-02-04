@@ -1,6 +1,4 @@
 import React from "react";
-import Button from "./Button";
-import {BUTTON_VARIANT} from "@/constants";
 
 const SponsorsLayout = ({title, topImages, bottomImages}) => {
   return (

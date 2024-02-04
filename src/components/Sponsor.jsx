@@ -40,6 +40,7 @@ function Sponsor() {
 
       <div className="flex justify-center mt-8">
         <Button
+          href="/"
           variant={BUTTON_VARIANT.LIGHT}
           label="Become a Sponsor"
           className="flex justify-center"
