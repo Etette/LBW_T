@@ -42,7 +42,7 @@ function HeaderNav() {
         <div
           className={`lg:py-2 py-4 px-4 flex items-center justify-between lg:w-[70%] w-[89%]  border-solid rounded-2xl border-white border-[1px]  ${
             isSticky
-              ? " fixed top-0 lg:w-full w-[100%] flex justify-center bg-[#101c25] text-white border-none px-12 border-solid rounded-none shadow-md transition-all duration-300 ease-in-out z-50"
+              ? " fixed top-0 lg:w-full w-[100%] flex justify-center bg-[#101c25] text-white border-none sm:w-full md:w-full px-12 border-solid rounded-none shadow-md transition-all duration-300 ease-in-out z-50"
               : ""
           }`}
         >
