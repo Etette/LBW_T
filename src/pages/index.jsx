@@ -1,8 +1,6 @@
 "use client";
 import {useEffect} from "react";
 
-import Calender from "@/components/Calender";
-
 import HeaderNav from "@/components/HeaderNav";
 import HeroSection from "@/components/HeroSection";
 import Speakers from "@/components/Speakers";
