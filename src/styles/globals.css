@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Prompt", sans-serif;
+  color: #131313 !important;
+  background-color: #fffdef;
+}
+
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+  font-family: "Bungee Shade";
+}
+
+#hero {
+  background-image: url("../assets/background-image.png");
+  /* background-size: contain; */
+  background-position: center;
+  background-color: #2d2d2d;
+}
+
+#footer {
+  background-image: url("../assets/footer-img.png");
+  /* background-size: contain; */
+  background-position: center;
+}
+
+.box {
+  border-radius: 16px;
+  border: 1px solid var(--Gradient-blue, #5cb7fe);
+  background: radial-gradient(
+    670.19% 154.81% at 100% 0%,
+    rgba(31, 42, 69, 0.5) 0%,
+    rgba(44, 55, 84, 0.26) 68.11%,
+    rgba(2, 12, 37, 0.15) 100%
+  );
+  box-shadow: 16px 4px 44px 0px rgba(9, 41, 87, 0.1) inset;
+  backdrop-filter: blur(2px);
+}
+
+#sponsor {
+  border-radius: 8px;
+  border: 1px solid var(--light-gradient, rgba(92, 183, 254, 0.19));
+  background: radial-gradient(
+    670.19% 154.81% at 100% 0%,
+    rgba(31, 42, 69, 0.5) 0%,
+    rgba(44, 55, 84, 0.26) 68.11%,
+    rgba(2, 12, 37, 0.15) 100%
+  );
+  box-shadow: 16px 4px 44px 0px rgba(9, 41, 87, 0.1) inset;
+  backdrop-filter: blur(26px);
+}
+
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 100;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #2d2d2d;
+  color: #fdf8e2;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+@media (max-width: 500px) {
+  .sidenav {
+    padding-top: 30px;
+  }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}
