@@ -31,9 +31,9 @@ export default function Home() {
           className="rounded-md mt-4"
           alt="join"
         />
-      </div>
+  </div> */}
       <ProgramTrack />
-      {/* <Speakers /> */}
+      {/* <Speakers />
       <Join />
 
       {/* <EventSchedules /> */}
