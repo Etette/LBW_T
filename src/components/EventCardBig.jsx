@@ -22,7 +22,11 @@ const EventCardBig = ({
         data-aos-duration="700"
       >
         <div>
-          <img src={image} className="lg:h-52 sm:w-full object-cover" alt="" />
+          <img
+            src={image}
+            className="lg:h-52 sm:w-full object-cover"
+            alt="event"
+          />
         </div>
         <div className="lg:ml-4 sm:mt-3 lg:w-[35%] text-[#FFFCE1]">
           <p className={cx(`text-2xl`)}>{title}</p>
@@ -48,7 +52,7 @@ const EventCardBig = ({
         <div className=" text-[#FFFCE1] lg:mx-16 mt-8">
           {captions.map((caption) => (
             <div className="flex mt-4 text-sm">
-              <img src={caption.icon} />
+              <img src={caption.icon} alt="event-icon" />
               <p className="ml-2 text-[#FFFCE1]">{caption.text}</p>
             </div>
           ))}

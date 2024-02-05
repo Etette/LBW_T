@@ -65,7 +65,7 @@ function HeaderNav() {
               <p className="cursor-pointer">Pitch</p>
             </ScrollLink>
             <a
-              href="https://forms.gle/Hz5RV1NCxZNfGbWQ6"
+              href="https://bit.ly/LBW-BECOMEASPONSOR"
               target="_blank"
               className="cursor-pointer ml-[64px] py-3 px-8 text-[#000000] text-lg  bg-[#FFFCE1] rounded"
             >
@@ -76,7 +76,7 @@ function HeaderNav() {
             onClick={() => openNav()}
             src="./images/icons/icons8-hamburger.svg"
             className="bg-white w-6  cursor-pointer lg:hidden block my-auto"
-            alt=""
+            alt="hamburger"
           />
 
           <div id="mySidenav" className="sidenav">

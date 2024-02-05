@@ -25,7 +25,7 @@ const EventCardSmall = ({
       data-aos-duration="700"
     >
       <div>
-        <img src={image} className=" sm:w-full object-cover" alt="" />
+        <img src={image} className=" sm:w-full object-cover" alt="evennt" />
       </div>
       <div className="text-[#131313] sm:mt-2 lg:ml-4 ">
         <p className={cx(`text-2xl`, titleClassName)}>{title}</p>

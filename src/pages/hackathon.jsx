@@ -12,14 +12,14 @@ export default function hackathon({className, titleClassName}) {
       <img
         src="./images/hackathon-image.png"
         className="sm:h-[80vh] object-cover object-fill"
-        alt=""
+        alt="hero-img"
       />
       <div className="absolute top-0 w-full">
         <HeaderNav />
         <img
           className="ml-auto mr-16 lg:w-32 w-14 sm:mt-8"
           src="./images/circular-button.png"
-          alt=""
+          alt="circular-button"
         />
 
         <div className="text-white lg:flex flex-col justify-center text-center lg:p-12 sm:py-12 sm:pt-12 leading-8">
@@ -34,8 +34,8 @@ export default function hackathon({className, titleClassName}) {
               labelClassName="text-center"
             />
             <Button
-              href="https://bit.ly/LBW-BECOMEASPONSOR"
-              label="Partner with us"
+              href="https://forms.gle/sckuU6n1YrKnzDeVA"
+              label="Sponsor the Bounty Track"
               variant={BUTTON_VARIANT.DARK}
               svgclassName="fill-[#FFFCE1]"
               className="bg-opacity-10 border border-[#fffdef] border-b-4 lg:ml-6 border-r-4 "
@@ -54,7 +54,7 @@ export default function hackathon({className, titleClassName}) {
         >
           <div className="sm:py-2 text-[#fff] sm:mt-2 lg:ml-4 ">
             <p className={cx(`text-2xl lg:py-20 sm:mb-10`, titleClassName)}>
-              Lagos Blockchain week (LBW) Hackathon
+              Blockchain Interoperability Hackathon
             </p>
             <Button
               href="https://forms.gle/Hz5RV1NCxZNfGbWQ6"
@@ -68,7 +68,7 @@ export default function hackathon({className, titleClassName}) {
             <img
               src="./images/image 25.png"
               className=" sm:w-full object-cover justify-end "
-              alt=""
+              alt="hackaton"
             />
           </div>
 

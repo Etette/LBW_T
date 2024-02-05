@@ -193,16 +193,16 @@ export default function schedule() {
       <title>Lagos Blockchain Week | Schedule</title>
       <img
         id="hero"
-        src="./images/img_image28.png"
+        src="./images/schedule.png"
         alt="schedule-image"
-        className="sm:h-[100vh] lg:h-[80vh] object-cover object-fill brightness-50 "
+        className="sm:h-[100vh] lg:h-[80vh] object-cover object-fill brightness-75 "
       />
       <div className="absolute top-0 w-full">
         <HeaderNav />
         <img
-          className="ml-auto mr-16 lg:w-32 w-14 sm:mt-8 lg:mt-10"
+          className="ml-auto mr-16 lg:w-32 w-14 sm:mt-8"
           src="./images/circular-button.png"
-          alt=""
+          alt="circular-button"
         />
         <div className="text-white lg:flex flex-col justify-center text-center  item-center  sm:py-12 sm:pt-8 leading-8">
           <p className="sm:max-w-[14] sm:px- justify-center text-center">
