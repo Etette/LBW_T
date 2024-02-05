@@ -26,7 +26,7 @@ function Footer({className}) {
         <p className="font-medium mb-3">Team</p>
         <p className="">Become a scholar </p>
         <p className="">Collaborate with Us</p>
-        <p className="">Join as a Volunteer Us</p>
+        <p className="">Join as a Volunteer</p>
         {/* <p className="">Made in Africa</p> */}
       </div>
 

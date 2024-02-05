@@ -24,17 +24,17 @@ export default function Home() {
       {/* <HeaderNav /> */}
       <HeroSection />
 
-      <div className=" lg:mx-[50px] mx-4 mt-[100px] flex flex-col">
+      {/* <div className=" lg:mx-[50px] mx-4 mt-[100px] flex flex-col">
         <h3 className="font-bold text-[30px]">Join us at</h3>
         <img src="./images/join-us.png" className="rounded-md mt-4" alt="" />
-      </div>
+      </div> */}
       <ProgramTrack />
       {/* <Speakers /> */}
       <Join />
 
-      <EventSchedules />
-      <Partners />
-      <Sponsor />
+      {/* <EventSchedules /> */}
+      {/* <Partners />
+      <Sponsor /> */}
       <Footer />
     </Fragment>
   );
