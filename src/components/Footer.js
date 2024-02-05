@@ -1,8 +1,15 @@
 import React from "react";
+import cx from "classnames";
 
-function Footer() {
+function Footer({className}) {
   return (
-    <div id="footer" className="lg:px-[50px] px-6 mt-20 !text-[#131313] py-10 lg:flex justify-evenly">
+    <div
+      id="footer"
+      className={cx(
+        `lg:px-[50px] px-6 mt-20 !text-[#131313] py-10 lg:flex justify-evenly`,
+        className
+      )}
+    >
       <p className="">#LBW2024</p>
 
       <div className="flex flex-col">
@@ -28,10 +35,8 @@ function Footer() {
         {/* <p className="">about</p> */}
         <p className="">blog</p>
         <a href="mailto:info@lagosblockchainweek.io">
-        <p className="">Contact Us</p></a>
-        
-
-        
+          <p className="">Contact Us</p>
+        </a>
       </div>
 
       {/* <div className="flex flex-col">

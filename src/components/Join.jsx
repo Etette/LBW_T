@@ -1,6 +1,6 @@
 const Join = () => {
   return (
-    <div className="mt-[100px] relative">
+    <div className="mt-[100px] relative mb-[90px]">
       <img src="./images/join.png" className="rounded-md mt-4" alt="" />
       <div className="flex justify-between absolute lg:top-40 top-10 my-auto lg:left-20 left-5 lg:right-20 right-5">
         <p className="text-white font-bold my-auto text-sm lg:text-5xl">

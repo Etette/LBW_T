@@ -52,9 +52,9 @@ function HeaderNav() {
               <p className="cursor-pointer">Hackathon</p>
             </Link>
 
-            <ScrollLink to="schedule" smooth={true} duration={500}>
+            <Link href="/schedule" smooth={true} duration={500}>
               <p className="cursor-pointer">Schedule</p>
-            </ScrollLink>
+            </Link>
             <Link href="/speakers" smooth={true} duration={500}>
               <p className="cursor-pointer">Speaker</p>
             </Link>
@@ -65,7 +65,7 @@ function HeaderNav() {
               <p className="cursor-pointer">Pitch</p>
             </ScrollLink>
             <a
-              href="https://bit.ly/LBW-BECOMEASPONSOR"
+              href="https://forms.gle/Hz5RV1NCxZNfGbWQ6"
               target="_blank"
               className="cursor-pointer ml-[64px] py-3 px-8 text-[#000000] text-lg  bg-[#FFFCE1] rounded"
             >
@@ -89,12 +89,13 @@ function HeaderNav() {
               </p>
               <div className="pt-20"></div>
 
-              <a href="https://bit.ly/Hack-LBW-2024" target="_blank">
-                <p className="my-5 text-base cursor-pointer">Hackathon</p>
-              </a>
-              <ScrollLink to="schedule" smooth={true} duration={500}>
-                <p className="my-5 text-base cursor-pointer">Schedule</p>
-              </ScrollLink>
+              <Link href="/hackathon" smooth={true} duration={500}>
+                <p className="cursor-pointer my-5 text-base ">Hackathon</p>
+              </Link>
+
+              <Link href="/schedule" smooth={true} duration={500}>
+                <p className="cursor-pointer">Schedule</p>
+              </Link>
 
               <Link href="/speakers" smooth={true} duration={500}>
                 <p className="my-5 text-base cursor-pointer">Speaker</p>

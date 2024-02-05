@@ -28,13 +28,13 @@ export default function hackathon({className, titleClassName}) {
 
           <div className="lg:flex items-center justify-center sm:px-6 mt-4">
             <Button
-              href="/"
+              href="https://forms.gle/Hz5RV1NCxZNfGbWQ6"
               label="Register for hackathon"
               className=""
               labelClassName="text-center"
             />
             <Button
-              href="/"
+              href="https://bit.ly/LBW-BECOMEASPONSOR"
               label="Partner with us"
               variant={BUTTON_VARIANT.DARK}
               svgclassName="fill-[#FFFCE1]"
@@ -57,7 +57,7 @@ export default function hackathon({className, titleClassName}) {
               Lagos Blockchain week (LBW) Hackathon
             </p>
             <Button
-              href="https://bit.ly/Hack-LBW-2024"
+              href="https://forms.gle/Hz5RV1NCxZNfGbWQ6"
               label="Register"
               variant={BUTTON_VARIANT.LIGHT}
               className="flex sm:w-full sm:mt-4 rounded-md bg-[#fffdef] border border-[#5CB7FE] border-b-4  lg:mt-auto sm:mb-2 items-center justify-center"

@@ -27,7 +27,7 @@ const speakers = () => {
           <p className="">Blockchain Week Hackathon: 2nd - 4th, May 2024</p>
           <p className="">Lagos Blockchain Week: 6th - 11th, May 2024</p>
 
-          <div className="lg:flex justify-center mt-4">
+          <div className="lg:flex justify-center mt-4 sm:px-2">
             <Button
               href="/"
               label="Become a sponsor"
