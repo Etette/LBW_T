@@ -26,8 +26,12 @@ export default function Home() {
 
       {/* <div className=" lg:mx-[50px] mx-4 mt-[100px] flex flex-col">
         <h3 className="font-bold text-[30px]">Join us at</h3>
-        <img src="./images/join-us.png" className="rounded-md mt-4" alt="" />
-      </div> */}
+        <img
+          src="./images/join-us.png"
+          className="rounded-md mt-4"
+          alt="join"
+        />
+      </div>
       <ProgramTrack />
       {/* <Speakers /> */}
       <Join />

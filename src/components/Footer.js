@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import cx from "classnames";
 
 function Footer({className}) {
@@ -15,7 +16,9 @@ function Footer({className}) {
       <div className="flex flex-col">
         <p className="font-medium mb-3">Policy</p>
 
-        <p className="">Privacy Policy</p>
+        <Link href={"/privacy-policy"}>
+          <p className="">Privacy Policy</p>
+        </Link>
         {/* <p className="">Community Managers</p>
         <p className="">Developers</p>
         <p className="">Designers</p>

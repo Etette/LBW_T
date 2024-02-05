@@ -57,7 +57,7 @@ function HeroSection() {
         <img
           className="ml-auto mr-8 lg:w-40 w-14"
           src="./images/circular-button.png"
-          alt=""
+          alt="circular-button"
         />
         <p className="lg:text-[70px] tracking-widest text-2xl">LAGOS</p>
         <div className="w-[95%]">

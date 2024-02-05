@@ -13,34 +13,34 @@ const Partners = () => {
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (1).png"
-          alt=""
+          alt="icon"
         />
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (2).png"
-          alt=""
+          alt="icon"
         />
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (3).png"
-          alt=""
+          alt="icon"
         />
       </div>
       <div className="lg:mt-8 lg:flex justify-between lg:w-[80%]">
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (4).png"
-          alt=""
+          alt="icon"
         />
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (5).png"
-          alt=""
+          alt="icon"
         />
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (6).png"
-          alt=""
+          alt="icon"
         />
       </div>
       <div className="flex justify-center mt-8">
