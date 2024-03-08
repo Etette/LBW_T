@@ -1,5 +1,6 @@
 "use client";
 import React, {Fragment, useEffect} from "react";
+import Image from "next/image";
 import Link from "next/link";
 import {atcb_action} from "add-to-calendar-button";
 import "add-to-calendar-button";
@@ -54,10 +55,12 @@ function HeroSection() {
         id="hero"
         className="text-[#FFFCE1] lg:h-[100vh] lg:p-16 p-6 sm:py-16"
       >
-        <img
+        <Image
           className="ml-auto mr-8 lg:w-40 w-14"
-          src="./images/circular-button.png"
+          src="/images/circular-button.png"
           alt="circular-button"
+          width={160}
+          height={160}
         />
         <p className="lg:text-[70px] tracking-widest text-2xl">LAGOS</p>
         <div className="w-[95%]">

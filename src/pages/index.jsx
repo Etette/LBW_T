@@ -33,12 +33,12 @@ export default function Home() {
         />
   </div> */}
       <ProgramTrack />
-      {/* <Speakers />
+      {/* <Speakers /> */}
       <Join />
 
-      {/* <EventSchedules /> */}
-      {/* <Partners />
-      <Sponsor /> */}
+      <EventSchedules />
+      <Partners />
+      <Sponsor />
       <Footer />
     </Fragment>
   );

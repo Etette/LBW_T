@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Button from "./Button";
 import {BUTTON_VARIANT} from "@/constants";
 
@@ -10,20 +11,26 @@ const Partners = () => {
     >
       <p className="text-[30px] font-bold">Our Partners</p>
       <div className="mt-6 lg:flex justify-between lg:w-[70%]">
-        <img
+        <Image
           className="h-12 sm:my-3"
-          src="./images/sponsors icon/black/img1 (1).png"
+          src="/images/sponsors icon/black/img1 (1).png"
           alt="icon"
+          width={174}
+          height={48}
         />
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (2).png"
           alt="icon"
+          width={246}
+          height={48}
         />
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (3).png"
           alt="icon"
+          width={119}
+          height={48}
         />
       </div>
       <div className="lg:mt-8 lg:flex justify-between lg:w-[80%]">
@@ -31,16 +38,22 @@ const Partners = () => {
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (4).png"
           alt="icon"
+          width={136}
+          height={48}
         />
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (5).png"
           alt="icon"
+          width={330}
+          height={48}
         />
         <img
           className="h-12 sm:my-3"
           src="./images/sponsors icon/black/img1 (6).png"
           alt="icon"
+          width={185}
+          height={48}
         />
       </div>
       <div className="flex justify-center mt-8">

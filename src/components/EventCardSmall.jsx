@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import cx from "classnames";
 import Button from "./Button";
 import {BUTTON_VARIANT} from "@/constants";
@@ -25,7 +26,13 @@ const EventCardSmall = ({
       data-aos-duration="700"
     >
       <div>
-        <img src={image} className=" sm:w-full object-cover" alt="evennt" />
+        <Image
+          src={image}
+          className=" sm:w-full object-cover"
+          alt="evennt"
+          width={230}
+          height={230}
+        />
       </div>
       <div className="text-[#131313] sm:mt-2 lg:ml-4 ">
         <p className={cx(`text-2xl`, titleClassName)}>{title}</p>

@@ -65,7 +65,7 @@ function EventSchedule() {
             <p className="">- Wallet Setup and Security workshop</p>
             <br />
             <p className="">
-              - Beginner's guide to cryptocurrencies/ Understanding DeFi
+              - Beginner&rsquo;s guide to cryptocurrencies/ Understanding DeFi
               Protocols
             </p>
             <br />

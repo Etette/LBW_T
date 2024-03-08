@@ -3,6 +3,7 @@
 import React, {useEffect, useState} from "react";
 import {Link as ScrollLink} from "react-scroll/modules";
 import {useRouter} from "next/router";
+import Image from "next/image";
 import Link from "next/link";
 
 function HeaderNav() {
@@ -48,7 +49,7 @@ function HeaderNav() {
         >
           <p className="mr-[64px] cursor-pointer font-bold">#LBW2024</p>
           <div className="lg:flex hidden items-center gap-x-8 text-sm">
-            <Link href="/hackathon" smooth={true} duration={500}>
+            <Link href="/hackathon" smooth="true" duration={500}>
               <p className="cursor-pointer">Hackathon</p>
             </Link>
 
@@ -72,9 +73,11 @@ function HeaderNav() {
               Register for Event
             </a>
           </div>
-          <img
+          <Image
             onClick={() => openNav()}
             src="./images/icons/icons8-hamburger.svg"
+            width={24}
+            height={24}
             className="bg-white w-6  cursor-pointer lg:hidden block my-auto"
             alt="hamburger"
           />

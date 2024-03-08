@@ -1,5 +1,4 @@
 import React from "react";
-
 import EventCardSmall from "./EventCardSmall";
 import EventCardBig from "./EventCardBig";
 
@@ -14,25 +13,25 @@ function ProgramTrack() {
         buttonHref="https://bit.ly/Hack-LBW-2024"
         title=" Lagos Blockchain Week (LBW) Hackathon"
         date="2nd - 4th May, 2024"
-        image="./images/lbw.png"
+        image="/images/lbw.png"
         captions={[
-          {icon: "./images/pin-alt.png", text: "Connected Web3, Innovation"},
-          {icon: "../images/candles-v.png", text: "Pan-African Collaboration"},
-          {icon: "./images/pin-alt.png", text: "BuiDLing"},
+          {icon: "/images/pin-alt.png", text: "Connected Web3, Innovation"},
+          {icon: "/images/candles-v.png", text: "Pan-African Collaboration"},
+          {icon: "/images/pin-alt.png", text: "BuiDLing"},
         ]}
       />
 
       <div className="lg:flex justify-between">
         <EventCardSmall
           buttonHref="/"
-          image="./images/image 22.png"
+          image="/images/image 22.png"
           title="Crypto 101 Conference"
           date="6th May, 2024"
           description="Introduction to Bitcoin and Blockchain"
         />
         <EventCardSmall
           buttonHref="/"
-          image="./images/image 13.png"
+          image="/images/image 13.png"
           title="Creator Convergence Expo"
           titleClassName="max-w-54"
           date="7th May, 2024"
@@ -45,17 +44,17 @@ function ProgramTrack() {
         title="Innovation Across Borders (Pitch/VC Fund Day)"
         date="8th May, 2024"
         buttonClassName=""
-        image="./images/image 13.png"
+        image="/images/image 13.png"
         captions={[
           {
-            icon: "./images/icon 2.png",
+            icon: "/images/icon 2.png",
             text: "Creative entrepreneurship workshop",
           },
           {
-            icon: "../images/candles-v.png",
+            icon: "/images/candles-v.png",
             text: "Understanding blockchain privacy with Aztec protocol",
           },
-          {icon: "./images/pin-alt.png", text: "Pitch/VC Fund"},
+          {icon: "/images/pin-alt.png", text: "Pitch/VC Fund"},
         ]}
       />
 
@@ -64,13 +63,13 @@ function ProgramTrack() {
           buttonHref="/"
           title="DWeb Storage Expo"
           descriptionClassName="max-w-44"
-          image="./images/image 21.png"
+          image="/images/image 21.png"
           date="9th May, 2024"
           description="Practical exercises on using Decentralized storage and retrieval"
         />
         <EventCardSmall
           buttonHref="/"
-          image="./images/unsplash_SYTO3xs06fU.png"
+          image="/images/unsplash_SYTO3xs06fU.png"
           title="Web3 BuiDLers Workshop"
           date="10th May, 2024"
           description="Developing dApps on virtual machine"
@@ -82,14 +81,14 @@ function ProgramTrack() {
         title=" Web3 BuiDLers Submit"
         buttonClassName="lg:mt-16"
         date="11th May, 2024"
-        image="./images/image 19.png"
+        image="/images/image 19.png"
         captions={[
-          {icon: "./images/pin-alt.png", text: "Blockchain Interoperability"},
+          {icon: "/images/pin-alt.png", text: "Blockchain Interoperability"},
           {
-            icon: "../images/candles-v.png",
+            icon: "/images/candles-v.png",
             text: "Advanced smart contract development ",
           },
-          {icon: "./images/pin-alt.png", text: "---"},
+          {icon: "/images/pin-alt.png", text: "---"},
         ]}
       />
     </div>

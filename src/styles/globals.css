@@ -20,7 +20,7 @@ h1 {
 
 #hero {
   background-image: url("../assets/background-image.png");
-  /* background-size: contain; */
+  background-size: contain;
   background-position: center;
   background-color: #2d2d2d;
 }
@@ -29,6 +29,13 @@ h1 {
   background-image: url("../assets/footer-img.png");
   /* background-size: contain; */
   background-position: center;
+}
+
+.joinImg {
+  border-radius: 11px;
+  margin-top: 40px;
+  background-position: center;
+  background-size: contain;
 }
 
 .box {

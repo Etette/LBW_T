@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "@/components/Button";
 import Footer from "@/components/Footer";
 import HeaderNav from "@/components/HeaderNav";
@@ -10,10 +11,12 @@ const speakers = () => {
   return (
     <div>
       <title>Lagos BlockChain Week | Speakers</title>
-      <img
-        src="./images/speakers.png"
+      <Image
+        src="/images/speakers.png"
         className="sm:h-[80vh] object-cover object-fill"
         alt="speaker"
+        width={1693}
+        height={283}
       />
       <div className="absolute top-0 w-full">
         <HeaderNav />

@@ -4,22 +4,28 @@ import HeaderNav from "@/components/HeaderNav";
 import Button from "@/components/Button";
 import {BUTTON_VARIANT} from "@/constants";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function hackathon({className, titleClassName}) {
   return (
     <div>
       <title>Lagos BlockChain Week | Hackathon</title>
-      <img
-        src="./images/hackathon-image.png"
+      <Image
+        id="hero"
+        src="/images/hackathon-image.png"
         className="sm:h-[80vh] object-cover object-fill"
         alt="hero-img"
+        width={1693}
+        height={83}
       />
       <div className="absolute top-0 w-full">
         <HeaderNav />
-        <img
+        <Image
           className="ml-auto mr-16 lg:w-32 w-14 sm:mt-8"
-          src="./images/circular-button.png"
+          src="/images/circular-button.png"
           alt="circular-button"
+          width={128}
+          height={128}
         />
 
         <div className="text-white lg:flex flex-col justify-center text-center lg:p-12 sm:py-12 sm:pt-12 leading-8">
@@ -44,7 +50,7 @@ export default function hackathon({className, titleClassName}) {
           </div>
         </div>
       </div>{" "}
-      <div className="lg:mx-[50px] mx-4 my-16">
+      <div className="lg:mx-[50px] mx-4 my-16 mb-80">
         <div className="">
           <h3 className="font-bold text-[30px] sm:mb-10">The LBW Hackathon</h3>
         </div>
@@ -65,13 +71,14 @@ export default function hackathon({className, titleClassName}) {
             />
           </div>
           <div>
-            <img
-              src="./images/image 25.png"
+            <Image
+              src="/images/image 25.png"
               className=" sm:w-full object-cover justify-end "
               alt="hackaton"
+              width={681}
+              height={388}
             />
           </div>
-
           <span className="flex"></span>
         </div>
       </div>
